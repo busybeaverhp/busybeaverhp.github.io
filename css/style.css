@@ -1,9 +1,10 @@
-﻿.MainContainer {
+﻿.wrapper {
     width: 960px;
+    margin: 0 auto;
     background-color: black;
     color: #C0C0C0;
 }
-.Header {
+.header {
     width: 960px;
     background-color:darkcyan;
     color: #C0C0C0;
