@@ -1,19 +1,30 @@
-﻿.wrapper {
+﻿#wrapper {
     width: 960px;
-    background-color: black;
+    background-color: #202020;
     color: #C0C0C0;
+    margin: 0 auto;
 }
-.header {
+#header {
     width: 100%;
     height: 60px;
     position: relative;
     color: white;
 }
-.headerstreak{
+#headerstreak{
     width: 100%;
     height: 30px;
     background-color:purple;
     position: absolute;
     top: 30%;
     z-index: -10;
+}
+#contentarea {
+    width: 70%;
+    height: 1000px;
+    background-color: lightgoldenrodyellow;   
+}
+#sidebar {
+    width: 30%;
+    height: 1000px;
+    background-color: coral;
 }
