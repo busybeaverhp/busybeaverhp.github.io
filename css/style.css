@@ -19,11 +19,13 @@
     z-index: -10;
 }
 #contentarea {
+    display: inline-block;
     width: 70%;
     height: 1000px;
     background-color: lightgoldenrodyellow;   
 }
 #sidebar {
+    display: inline-block;
     width: 30%;
     height: 1000px;
     background-color: coral;
