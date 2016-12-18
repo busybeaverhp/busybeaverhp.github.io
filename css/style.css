@@ -44,34 +44,35 @@
     z-index: -10;
 }
 #sidebar {
-    width: 240px;
-    display: inline-block;
-    
+    width: 150px;
     float:left;
-    padding: 4px 4px 4px 4px;
+    padding: 4px 20px 4px 20px;
     background-color: #303030;
 }
 #contentarea {
-    display: inline-block;
     position: relative;
     vertical-align:top;
-    width: 704px;
+    width: 762px;
+    height: auto;
     float:right;
     
+    word-break:break-all;
     padding: 4px 4px 4px 4px;
     background-color: #404040;   
 }
 
 .btn {
-  border: solid #000000 0px;
-  color: #ffffff;
-  font-size: 20px;
-  background: #600060;
-  padding: 10px 10px 10px 10px;
+    width: 100%;
+    border: solid #000000 0px;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: left;
+    background: #068BF7;
+    padding: 10px 10px 10px 10px;
 
   text-decoration: none;
 }
 .btn:hover {
-  background: #810081;
+  background: #50AAF7;
   text-decoration: none;
 }
