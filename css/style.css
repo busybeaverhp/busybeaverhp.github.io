@@ -1,10 +1,33 @@
-﻿#wrapper {
+﻿body { 
+    background-image: \images\bgImage.png;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #000000;
+}
+
+a {
+    color: #50aaf7;
+}
+a:link {
+    color: #50aaf7;
+}
+a:visited {
+    color: #045eaa;
+}
+a:hover {
+    color: #045eaa;
+}
+a:active {
+    color: white;
+}
+
+#wrapper {
     width: 960px;
     margin-left:auto;
     margin-right:auto;
     overflow-y: auto;
-    overflow-x: hidden;
-    background-color: #202020;
+    overflow-x: auto;
+    background-color: #000000;
     color: #C0C0C0;
     margin: 0 auto;
 }
@@ -14,6 +37,7 @@
     font-size:60px;
     position: relative;
     color: white;
+    z-index: 10;
 }
 #headerstreak{
     width: 100%;
@@ -21,7 +45,7 @@
     background-color:#045eaa;
     position: absolute;
     top: 30%;
-    z-index: -10;
+    z-index: -1;
 }
 .btnhead {
     position: absolute;
@@ -36,6 +60,7 @@
     
     border: solid #000000 0;
     background: #068BF7; 
+    z-index: 10;
 }
 .btnhead:hover {
   background: #50AAF7;
@@ -57,7 +82,7 @@
     padding: 8px 8px 8px 8px;
     box-sizing:border-box;
 
-    font-size:20px;
+    font-size:16px;
     color: white;
 
     background-color:#404040;

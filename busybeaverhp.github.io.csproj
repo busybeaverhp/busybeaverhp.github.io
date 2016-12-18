@@ -44,12 +44,12 @@
   <ItemGroup>
     <Content Include="css\normalize.css" />
     <Content Include="css\style.css" />
+    <Content Include="images\bgImage.png" />
     <Content Include="index.html" />
     <Content Include="js\main.js" />
+    <Content Include="Projects.html" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="images\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
