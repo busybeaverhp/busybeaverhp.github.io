@@ -1,9 +1,10 @@
 ﻿body { 
     background-image: url('https://raw.githubusercontent.com/busybeaverhp/busybeaverhp.github.io/master/images/bgImage.png');
-    background-size: 100% 50%;
+    background-size: contain;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center; 
+    background-position: center;
+    background-color: black;
 }
 }
 
@@ -29,7 +30,6 @@ a:active {
     margin-right:auto;
     overflow-y: auto;
     overflow-x: auto;
-    background-color: #000000;
     color: #C0C0C0;
     margin: 0 auto;
 }
