@@ -23,56 +23,68 @@
     top: 30%;
     z-index: -10;
 }
-#footer {
-    width: 100%;
-    height: 60px;
-    font-size:25px;
-    text-align: right;
-    vertical-align: central;
-    position: relative;
-    float:left;
-    color: white;
-}
-#footerstreak{
-    width: 100%;
-    height: 50%;
-    background-color:#034277;
+.btnhead {
     position: absolute;
-    font-size:20px;
-    overflow: auto;
-    top: 25%;
-    z-index: -10;
-}
-#sidebar {
-    width: 150px;
-    float:left;
-    padding: 4px 20px 4px 20px;
-    background-color: #303030;
-}
-#contentarea {
-    position: relative;
-    vertical-align:top;
-    width: 762px;
-    height: auto;
-    float:right;
+    width: 100px;    
+    top: 35%;
+    padding: 2px 2px 2px 2px;
+
+    font-size: 18px;
+    color: #ffffff; 
+    text-decoration: none;
+    text-align: center;
     
-    word-break:break-all;
-    padding: 4px 4px 4px 4px;
-    background-color: #404040;   
+    border: solid #000000 0;
+    background: #068BF7; 
 }
-
-.btn {
-    width: 100%;
-    border: solid #000000 0px;
-    color: #ffffff;
-    font-size: 20px;
-    text-align: left;
-    background: #068BF7;
-    padding: 10px 10px 10px 10px;
-
+.btnhead:hover {
+  background: #50AAF7;
   text-decoration: none;
 }
-.btn:hover {
-  background: #50AAF7;
+#headerslogan {
+    width: 100%;
+    height: auto;
+    text-align: right;
+}
+#content {
+    width: 100%;
+    height: auto;
+}
+#contentbody {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding: 8px 8px 8px 8px;
+    box-sizing:border-box;
+
+    font-size:20px;
+    color: white;
+
+    background-color:#404040;
+}
+#footer {
+    width: 100%;
+    height: auto;
+    color: white;
+    background-color:#034277;
+    text-align: right;
+    vertical-align: middle;
+}
+.btnfoot {
+    position: relative;
+    width: 200px;    
+    top: 35%;
+    padding: 2px 2px 2px 2px;
+
+    font-size: 18px;
+    color: #ffffff; 
+    text-decoration: none;
+    text-align: center;
+    
+    border: solid #000000 0;
+    background: #035699; 
+}
+.btnfoot:hover {
+  background: #068BF7;
   text-decoration: none;
 }
