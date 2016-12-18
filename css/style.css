@@ -1,8 +1,10 @@
 ﻿body { 
-    background-image: \images\bgImage.png;
+    background-image: url('https://raw.githubusercontent.com/busybeaverhp/busybeaverhp.github.io/master/images/bgImage.png');
+    background-size: 100% 50%;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-color: #000000;
+    background-position: center; 
+}
 }
 
 a {
