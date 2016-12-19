@@ -35,7 +35,7 @@ function loadPageWhite(obj) {
         '<object width="100%" height="100%" overflow="hidden" data="' +
         page + '" type="text/html"><embed src="' + page + '" type="text/html" /></object>';
     document.getElementById("contentbody").style.background = "white";
-    document.getElementById("contentbody").style.height = "3150px";
+    document.getElementById("contentbody").style.height = "3200px";
     document.getElementById("contentbody").style.overflow = "hidden";
     
     return false;

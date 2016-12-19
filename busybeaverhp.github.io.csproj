@@ -51,7 +51,7 @@
     <Content Include="Exams.html" />
     <Content Include="images\bgImage.png" />
     <Content Include="images\gaussJordan.jpg" />
-    <Content Include="images\serialVsAsyncV2.png" />
+    <Content Include="images\serialVsAsyncGIF.gif" />
     <Content Include="images\SQRGuessingAlgo.png" />
     <Content Include="images\squareRootGuessingGIF.gif" />
     <Content Include="index.html" />
