@@ -31,12 +31,12 @@ function loadPage(obj) {
 }
 function loadPageWhite(obj) {
     var page = obj;
-    document.getElementById("contentbody").style.background = "white";
-    document.getElementById("contentbody").style.height = "750px";
-    document.getElementById("contentbody").style.overflow = "hidden";
     document.getElementById("contentbody").innerHTML =
-        '<object width="100%" height="100%" overflow-x="hidden" overflow-y="auto" data="' +
+        '<object width="100%" height="100%" overflow="hidden" data="' +
         page + '" type="text/html"><embed src="' + page + '" type="text/html" /></object>';
+    document.getElementById("contentbody").style.background = "white";
+    document.getElementById("contentbody").style.height = "3150px";
+    document.getElementById("contentbody").style.overflow = "hidden";
     
     return false;
 }
