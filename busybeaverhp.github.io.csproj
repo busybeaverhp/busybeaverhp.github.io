@@ -42,11 +42,17 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Art.html" />
     <Content Include="css\normalize.css" />
     <Content Include="css\style.css" />
+    <Content Include="css\styleArt.css" />
+    <Content Include="css\styleExams.css" />
     <Content Include="css\styleProjects.css" />
+    <Content Include="Exams.html" />
     <Content Include="images\bgImage.png" />
     <Content Include="index.html" />
+    <Content Include="js\mainArt.js" />
+    <Content Include="js\mainExams.js" />
     <Content Include="js\main.js" />
     <Content Include="js\mainProjects.js" />
     <Content Include="Projects.html" />

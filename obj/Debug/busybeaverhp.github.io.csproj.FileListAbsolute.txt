@@ -1,0 +1,5 @@
+E:\Documents\GitHub\busybeaverhp.github.io\bin\Debug\busybeaverhp.github.io.dll
+E:\Documents\GitHub\busybeaverhp.github.io\bin\Debug\busybeaverhp.github.io.pdb
+E:\Documents\GitHub\busybeaverhp.github.io\obj\Debug\busybeaverhp.github.io.csprojResolveAssemblyReference.cache
+E:\Documents\GitHub\busybeaverhp.github.io\obj\Debug\busybeaverhp.github.io.dll
+E:\Documents\GitHub\busybeaverhp.github.io\obj\Debug\busybeaverhp.github.io.pdb
