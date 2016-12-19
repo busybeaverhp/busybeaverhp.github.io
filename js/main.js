@@ -42,9 +42,13 @@ function loadPageWhite(obj) {
 }
 function loadProjects() {
     resetContentBody();
-    var projectUrl = "https://busybeaverhp.github.io/Projects.html";
+    var projectUrl = "Projects.html";
     var page = projectUrl;
     document.getElementById("contentbody").innerHTML =
         '<object width="950px" height="100%" overflow-x="hidden" overflow-y="auto" data="' +
         page + '" type="text/html"><embed src="' + page + '" type="text/html" /></object>';
+
+    document.getElementById("contentbody").style.overflow = "hidden";
+    document.getElementById("contentbody").style.height = "2000px";
+    document.getElementById("contentbody").style.background = "transparent";
 }
