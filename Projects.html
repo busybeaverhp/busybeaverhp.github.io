@@ -9,34 +9,90 @@
     <title>Projects</title>
 </head>
 <body>
-<div style="text-align: center; background: #030303; background-color: rgba(24, 24, 32, 0.95); ">
+<div style="text-align: center; background: #030303; background-color: rgba(24, 24, 32, 0.65); padding: 8px 8px 8px 8px;">
     <br style="font-size: 12px;"/>
     <h1>Featured Project: Sudoku Attempter</h1>
     <iframe src="https://player.vimeo.com/video/168570032" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><br/>
-    <p>
-        A Windows Form Application that guesses 9x9 Sudoku instances.<br />
-        This old C# project is a first-draft PoC on using LINQ to guess Sudoku puzzles.<br />
-        GitHub Repo: <a href="https://github.com/busybeaverhp/SudokuGuesser" target="_blank">https://github.com/busybeaverhp/SudokuGuesser</a><br />
-    </p><br/>
+    <div style="text-align: center; background: #030303; background-color: rgba(24, 24, 32, 0.95); ">
+        <p style="width: 80%; text-align: left; word-wrap: break-word; box-sizing: border-box; padding: 8px 8px 8px 8px;">
+            A Windows Form Application that guesses 9x9 Sudoku instances.<br />
+            This old C# project is a first-draft PoC on using LINQ to guess Sudoku puzzles.<br /><br />
+            GitHub Repo: <a href="https://github.com/busybeaverhp/SudokuGuesser" target="_blank">https://github.com/busybeaverhp/SudokuGuesser</a><br />
+        </p>
+    </div>
 </div>
-    <br/>
-<div style="text-align: center; background: #030303; background-color: rgba(24, 24, 32, 0.95); ">
+<br/>
+<div style="text-align: center; background: #030303; background-color: rgba(24, 24, 32, 0.65); padding: 8px 8px 8px 8px;">
     <br style="font-size: 12px;" />
     <h1>Featured Project: PRNG v2</h1>
-    <img src="https://raw.githubusercontent.com/busybeaverhp/Parallel_PRNG/master/ParallelPRNG/bin/PowerPoint/Huy's%20Pseudorandom%20Value%20Generation%20System%20v2.png" width="80%" height="auto" />
-    <p>
-        My second generation of engineering pseudo-random number generation systems.<br />
-        A virtually non-deterministic pseudo-random number generator class library.<br /> 
-        Cryptography-strength. Fast. Thread-safe and Parallelizable.<br /> 
-        Comes with demonstration Windows Form Application.<br />
-        GitHub Repo: <a href="https://github.com/busybeaverhp/Parallel_PRNG" target="_blank">https://github.com/busybeaverhp/Parallel_PRNG</a><br />
-    </p><br />
+    <img src="https://raw.githubusercontent.com/busybeaverhp/Parallel_PRNG/master/ParallelPRNG/bin/PowerPoint/Huy's%20Pseudorandom%20Value%20Generation%20System%20v2.png" width="95%" height="auto" />
+    <div style="text-align: center; background: #030303; background-color: rgba(24, 24, 32, 0.95); ">
+        <p style="width: 90%; text-align: left; word-wrap: break-word; box-sizing: border-box; padding: 8px 8px 8px 8px;">
+            My second generation of engineering pseudo-random number generation systems.<br />
+            A virtually non-deterministic pseudo-random number generator class library.<br />
+            Cryptography-strength. Fast. Thread-safe and Parallelizable.<br />
+            Comes with demonstration Windows Form Application.<br /><br />
+            GitHub Repo: <a href="https://github.com/busybeaverhp/Parallel_PRNG" target="_blank">https://github.com/busybeaverhp/Parallel_PRNG</a><br />
+        </p>
+    </div>
 </div>
-    <br/>
-<div style="text-align: center; background: #030303; background-color: rgba(24, 24, 32, 0.95); padding: 8px 8px 8px 8px;">
+<br/>
+<div style="text-align: center; background: #030303; background-color: rgba(24, 24, 32, 0.65); padding: 8px 8px 8px 8px;">
     <br style="font-size: 12px;" />
-    <h2>The Rest...</h2>
-    <p style="width: 600px; word-wrap: break-word; padding: 8px 8px 8px 16px;">sdfffffffffffffffsfddddddddddddddddddddddddddddddddddddddfffffffffffffffffffffffffffffffffffffsdfffffffffffffffsfddddddddddddddddddddddddddddddddddddddfffffffffffffffffffffffffffffffffffffsdfffffffffffffffsfddddddddddddddddddddddddddddddddddddddfffffffffffffffffffffffffffffffffffff</p>
+    <h2>Linear Algebra: Gauss-Elimination Algorithm</h2>
+    <img src="images/gaussjordan.jpg" width="95%" height="auto" />
+    <div style="text-align: center; background: #030303; background-color: rgba(24, 24, 32, 0.95); ">
+        <p style="width: 95%; text-align: left; word-wrap: break-word; box-sizing: border-box; padding: 8px 8px 8px 8px;">
+            I was curious to how well C# can handle matrix operations. In order to deal with basic matrix row manipulations, I needed to deal with fractions.<br /><br />
+            C# doesn't deal with fractions natively. It's time to invent something that does.<br /><br />
+            The fraction class took like 15 minutes and a handful of code to implement, the devilishly difficult part was actually implementing the fraction reduction algorithm, you know... finding all the greatest common denominator of a fraction in a way that doesn't brute force the system to a grinding halt. I invented an agorithm that checks at most, value^0.5.<br /><br />
+            I'm not a mathematician, my algorithm isn't theoretically optimal... but we can't let perfect be the enemy of the good. The point of this effort is to build a shippable matrix operator, rather than finding the theoretically perfect algorithm to prime factorization (who has found one anyway?) ;)<br /><br />
+            Anyway, writing the RREF algorithm was even harder than the reduction algorithm, because the format of my matrix operation is multidimensional jagged array (think of matrices of matrices).<br /><br />
+            TL:DR in order to solve matrices, I had to build a math system, then build another one on top of that. The result is pretty awesome and worth stuffing into my portfolio.<br /><br />
+            Not bad for someone who just picked up C# two months when this project was finished eh?<br /><br />
+            GitHub Repo: <a href="https://github.com/busybeaverhp/GaussJordan_RowReduction" target="_blank">https://github.com/busybeaverhp/GaussJordan_RowReduction</a><br />
+        </p>
+    </div>
+</div>
+<br />
+<div style="text-align: center; background: #030303; background-color: rgba(24, 24, 32, 0.65); padding: 8px 8px 8px 8px;">
+    <br style="font-size: 12px;" />
+    <h2>Binary Square Root Guessing Algorithm</h2>
+    <img src="images/sqrguessingalgo.png" width="95%" height="auto" />
+    <img src="images/squarerootguessinggif.gif" width="95%" height="auto" />
+    <div style="text-align: center; background: #030303; background-color: rgba(24, 24, 32, 0.95); ">
+        <p style="width: 95%; text-align: left; word-wrap: break-word; box-sizing: border-box; padding: 8px 8px 8px 8px;">
+            In order to evaluate square roots values that are more precise than decimal type's limitation of 29 digits, I invented my own square root algorithm within my previously created NumericPrecision Class.<br /><br />
+
+            The theory behind this is straightforward, if you'll follow my reasoning:<br /><br />
+
+            If you had to guess an integer within a specified range, given the hint higher or lower, what is the optimal number of attempts needed to guess correctly every time?<br /><br />
+
+            Let's say that I had to guess the mystery number between 1 and 100, how many guesses do I need at most?<br /><br />
+
+            1st attempt, Guess: 50, Hint: Lower<br />
+            2nd attempt, Guess: 25, Hint: Higher<br />
+            3rd attempt, Guess: 37, Hint: Lower<br />
+            4th attempt, Guess: 31, Hint: Higher<br />
+            5th attempt, Guess: 34, Hint: Lower<br />
+            6th attempt, Guess: 32: Hint: Higher<br />
+            7th attempt, Guess: 33 Correct!<br /><br />
+
+            With each attempt, I exclude half the remaining space of the numbers to be guessed.<br /><br />
+
+            Working out the math, I figured that the attempts will not exceed the characters of binary representation of the integer range. Layman's term: if the integer 100 is converted into binary, 1100100, there are seven binary characters, meaning that you can guess any integer in the number space of 0-100 in seven or less guesses.<br /><br />
+
+            The same principle of guessing by excluding half the remaining number space per attempt, can be transformed and applied to finding square roots. All I needed to do was add an additional component that tests guess^2 against the target value.<br /><br />
+
+            Since the ALU on the CPU are made for handling and outputting integers, turning the square root approximation into an integer guessing game is cheap and fast to execute.<br /><br />
+
+            By the power of binary guessing, my output is numerically correct, even to the 100th decimal place. You can even verify it with the NASA website: http://apod.nasa.gov/htmltest/gifcity/sqrt2.10mil<br /><br />
+
+            GitHub Repo: <a href="https://github.com/busybeaverhp/Numeric_Precision" target="_blank">https://github.com/busybeaverhp/Numeric_Precision</a><br />
+        </p>
+    </div>
+</div>
+<br />
 
 </body>
 </html>

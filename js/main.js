@@ -49,6 +49,6 @@ function loadProjects() {
         page + '" type="text/html"><embed src="' + page + '" type="text/html" /></object>';
 
     document.getElementById("contentbody").style.overflow = "hidden";
-    document.getElementById("contentbody").style.height = "2000px";
+    document.getElementById("contentbody").style.height = "7000px";
     document.getElementById("contentbody").style.background = "transparent";
 }
