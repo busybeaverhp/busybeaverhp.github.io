@@ -87,8 +87,10 @@ a:active {
     font-size:16px;
     color: white;
 
-    background-color:#404040;
+    background: #404040;
+    background: rgba(64, 64, 64, 0.95);
 }
+
 #footer {
     width: 100%;
     height: auto;
