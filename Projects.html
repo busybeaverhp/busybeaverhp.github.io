@@ -40,7 +40,7 @@
 <div style="text-align: center; background: #030303; background-color: rgba(24, 24, 32, 0.65); padding: 8px 8px 8px 8px;">
     <br style="font-size: 12px;" />
     <h2>Linear Algebra: Gauss-Elimination Algorithm</h2>
-    <img src="images/gaussjordan.jpg" width="95%" height="auto" />
+    <img src="https://raw.githubusercontent.com/busybeaverhp/busybeaverhp.github.io/master/images/gaussJordan.jpg" width="95%" height="auto" />
     <div style="text-align: center; background: #030303; background-color: rgba(24, 24, 32, 0.95); ">
         <p style="width: 95%; text-align: left; word-wrap: break-word; box-sizing: border-box; padding: 8px 8px 8px 8px;">
             I was curious to how well C# can handle matrix operations. In order to deal with basic matrix row manipulations, I needed to deal with fractions.<br /><br />
@@ -58,18 +58,14 @@
 <div style="text-align: center; background: #030303; background-color: rgba(24, 24, 32, 0.65); padding: 8px 8px 8px 8px;">
     <br style="font-size: 12px;" />
     <h2>Binary Square Root Guessing Algorithm</h2>
-    <img src="images/sqrguessingalgo.png" width="95%" height="auto" />
-    <img src="images/squarerootguessinggif.gif" width="95%" height="auto" />
+    <img src="https://raw.githubusercontent.com/busybeaverhp/busybeaverhp.github.io/master/images/SQRGuessingAlgo.png" width="95%" height="auto" />
+    <img src="https://cdn.rawgit.com/busybeaverhp/busybeaverhp.github.io/master/images/squareRootGuessingGIF.gif?raw=true" width="95%" height="auto" />
     <div style="text-align: center; background: #030303; background-color: rgba(24, 24, 32, 0.95); ">
         <p style="width: 95%; text-align: left; word-wrap: break-word; box-sizing: border-box; padding: 8px 8px 8px 8px;">
             In order to evaluate square roots values that are more precise than decimal type's limitation of 29 digits, I invented my own square root algorithm within my previously created NumericPrecision Class.<br /><br />
-
             The theory behind this is straightforward, if you'll follow my reasoning:<br /><br />
-
             If you had to guess an integer within a specified range, given the hint higher or lower, what is the optimal number of attempts needed to guess correctly every time?<br /><br />
-
             Let's say that I had to guess the mystery number between 1 and 100, how many guesses do I need at most?<br /><br />
-
             1st attempt, Guess: 50, Hint: Lower<br />
             2nd attempt, Guess: 25, Hint: Higher<br />
             3rd attempt, Guess: 37, Hint: Lower<br />
@@ -77,22 +73,30 @@
             5th attempt, Guess: 34, Hint: Lower<br />
             6th attempt, Guess: 32: Hint: Higher<br />
             7th attempt, Guess: 33 Correct!<br /><br />
-
             With each attempt, I exclude half the remaining space of the numbers to be guessed.<br /><br />
-
             Working out the math, I figured that the attempts will not exceed the characters of binary representation of the integer range. Layman's term: if the integer 100 is converted into binary, 1100100, there are seven binary characters, meaning that you can guess any integer in the number space of 0-100 in seven or less guesses.<br /><br />
-
             The same principle of guessing by excluding half the remaining number space per attempt, can be transformed and applied to finding square roots. All I needed to do was add an additional component that tests guess^2 against the target value.<br /><br />
-
             Since the ALU on the CPU are made for handling and outputting integers, turning the square root approximation into an integer guessing game is cheap and fast to execute.<br /><br />
-
             By the power of binary guessing, my output is numerically correct, even to the 100th decimal place. You can even verify it with the NASA website: http://apod.nasa.gov/htmltest/gifcity/sqrt2.10mil<br /><br />
-
             GitHub Repo: <a href="https://github.com/busybeaverhp/Numeric_Precision" target="_blank">https://github.com/busybeaverhp/Numeric_Precision</a><br />
         </p>
     </div>
 </div>
 <br />
-
+<div style="text-align: center; background: #030303; background-color: rgba(24, 24, 32, 0.65); padding: 8px 8px 8px 8px;">
+    <br style="font-size: 12px;" />
+    <h2>Proof of Concept: Serial, Async, and Parallel</h2>
+    <img src="https://raw.githubusercontent.com/busybeaverhp/busybeaverhp.github.io/master/images/gaussJordan.jpg" width="95%" height="auto" />
+    <div style="text-align: center; background: #030303; background-color: rgba(24, 24, 32, 0.95); ">
+        <p style="width: 95%; text-align: left; word-wrap: break-word; box-sizing: border-box; padding: 8px 8px 8px 8px;">
+            Notes:<br /><br />
+            1. What's great about the Parallel classes in .NET is that even a novice programmer can use it without having to manually spawn threads, as the system does that automatically.<br /><br />
+            2. Parallel.For is an out-of-order operation with out-of-order outputs. What that means is that multiplication operations like my factorial calculation can be OoO and still give the correct result, where other calculations such as sequencing the terms of a series will not.<br /><br />
+            3. Some understanding of lambda expression and delegation may be required to understand the parallel code on a practicing level.<br /><br />         
+            No GitHub Repo here yet. It's still stored on my physical hard drive.<br />
+        </p>
+    </div>
+</div>
+<br />
 </body>
 </html>
