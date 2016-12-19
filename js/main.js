@@ -1,7 +1,7 @@
 ﻿
 var projects = "https://busybeaverhp.github.io/Projects.html";
 var exam145 =
-    "https://rawgit.com/busybeaverhp/HuyPham_20161206_CSI145FinalExam/master/HuyPham_20161206_CSI145FinalExam/HuyPham_20161206_CSI145FinalExam.html";
+    "https://cdn.rawgit.com/busybeaverhp/HuyPham_20161206_CSI145FinalExam/master/HuyPham_20161206_CSI145FinalExam/HuyPham_20161206_CSI145FinalExam.html";
 
 function intitializePage() {
 }
