@@ -49,6 +49,18 @@ function loadProjects() {
         page + '" type="text/html"><embed src="' + page + '" type="text/html" /></object>';
 
     document.getElementById("contentbody").style.overflow = "hidden";
-    document.getElementById("contentbody").style.height = "7000px";
+    document.getElementById("contentbody").style.height = "6400px";
+    document.getElementById("contentbody").style.background = "transparent";
+}
+function loadArt() {
+    resetContentBody();
+    var projectUrl = "Art.html";
+    var page = projectUrl;
+    document.getElementById("contentbody").innerHTML =
+        '<object width="950px" height="100%" overflow-x="hidden" overflow-y="auto" data="' +
+        page + '" type="text/html"><embed src="' + page + '" type="text/html" /></object>';
+
+    document.getElementById("contentbody").style.overflow = "hidden";
+    document.getElementById("contentbody").style.height = "6400px";
     document.getElementById("contentbody").style.background = "transparent";
 }
