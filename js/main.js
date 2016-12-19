@@ -61,6 +61,6 @@ function loadArt() {
         page + '" type="text/html"><embed src="' + page + '" type="text/html" /></object>';
 
     document.getElementById("contentbody").style.overflow = "hidden";
-    document.getElementById("contentbody").style.height = "6400px";
+    document.getElementById("contentbody").style.height = "5900px";
     document.getElementById("contentbody").style.background = "transparent";
 }
