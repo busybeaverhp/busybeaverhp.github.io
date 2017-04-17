@@ -58,8 +58,7 @@ a:active {
     text-decoration: none;
     text-align: center;
     
-    border: solid #000000 0;
-    background: #068BF7; 
+    border: solid #000000 0; 
     z-index: 10;
 }
 .btnhead:hover {
